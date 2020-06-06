@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: authorization-server
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://localhost:3306/santosh?autoreconnect=true"
+    password: "root"
+    username: "root"
+    testOnBorrow: true
+    testWhileIdle: true
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 30000
+    validationQuery: SELECT 1
+    max-active: 15
+    max-idle: 10
+    max-wait: 8000
+config:
+   oauth2:
+      privateKey: -----BEGIN RSA PRIVATE KEY-----MIIEpAIBAAKCAQEA0EgCM4BW7uunvq4bHhLkHZY0xy1x6wRdaCpjsxh0i6yjd1+bUG634gIensbHtEijGDw1/X2HzkH/LxzEs0hCLWZOaAy+BR7iHEmwAe07ZwS5NkZXNK76EMJdnilGCXXQm6oSQw+NcK9ZrHJXg3bLgZMOF0y1mX5Fp2wfEH8oT3TxFIWFEAAoV8UWWiTT8jzdEl2zIG6i3N1vE1dzHkyfx+1y/V/FjFm0jJ7n6JJzgHxKFxtpZSMTgYIYuUM0FawFXSSsGLx2NMFsPfBOTK72FVxRJblJBR8Xgyv6xlbWR9bfdvq+kjbBcrNp2Y9PULte6BBybv6CqKX0ErLxr4coYQIDAQABAoIBAQCcaKb2g/dEnkUvBVIp6GfT7BugQ3lb0sBOXB7YvJGw3ik3mN1qrmp6V7sk4wPPWAjaR0UIIn+cnaUDfSgdtjK0IzLYIlGESOfl9FQvbjaAq2Rm5LXSQ2BYu41QG5CTxByu+S2TnJdLuvKtdIRRniE/Ie6gAqQRK2klTCWb3tGnsEAWbaxg2IP2RYYb3/1ckK7HGryBwttNjiNgvk4LLQ0/PfkZVlwAdq95hpeKgSjkwkUi3U/aqETBLZ94CaYJ7NrT3FVViIDroKwiEQ4yxkluSvoFa/fh8vJem7ky9XehIAe7W4ja23cFWBmzeS6vhhOoOUFedLKBVWgbIvfw4fU9AoGBAOepNJ9GqVU0XTX6FOpULKBJHHozzgFIPIowpryNrOGtkj5arMqg6htzLDpnOl07DbvXmpH6x8QjbpqZXD0r6cZwmBsORWhJhZ9sWora8wu9Iy0TQd9C+sFWREJTUYJdLCz/jUXutOXPtZrwX5hoGCpsN5ZSXL1u7ETtLA2+nuBvAoGBAOYp+qetBuxHcLz10U8tVSsLXC3uPPOJMA9U66eCQam9+o6PcgUdqN5jw4mNA1Li+/lRhlSn+ENRbyMw2+ka25xDonGaSr6FHIS8QIMQazM43uKaFZgdtS+OK65oErK+wuQNTpp74RnhfSO8loD4D8tHTOKVj1X+Lqwscdq9dUwvAoGAP4Yrkt16g43HXYzE/Xi1gAJsV6oq/DkFuNMcdanX1U6WQpj0tt+nMn3DjARQgc42tuKpVQxSiRs6MhSJsZCAG1U2sHyaVb2LcarxrQ/bA8YKhkq4jnM8dZWlRBa6zCemfHRbFekeG8J4RxNQ82bf8YoZOBQ/sAZhrYjnwqEZyesCgYEAiPeCSjYVYJZC6LAAFvYLMMpZ2Jtleiexie4nLk+9c52ydRO37oNv8qe7vSdFSxX4jK2PGuG6Q5U6Zd61f0qUVbGKAcCnqijch8DfQx+KK7k0KfU31IYZRGt+YxNbzTLoF34zwIrnsdcV+SZJCgaUn4uWnWATJEFW1O698kW8f9ECgYA2Q0AzAxX/xvXsaqoFi90zJsuAA3Ou7iaJD93Ql75tZhrXD4p5WiMM5V4tdsyL50HkX1+0M0/PUWdVieQ4j3R6k6hIksOAT5XXOBuJ8y3pVfeXD7S106cxEyad70OQLYG7HdDBUxZMLb6KCyZNCf5N6WkuxWonlMUtm1ISGKrlXQ==-----END RSA PRIVATE KEY-----
+      publicKey: -----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0EgCM4BW7uunvq4bHhLkHZY0xy1x6wRdaCpjsxh0i6yjd1+bUG634gIensbHtEijGDw1/X2HzkH/LxzEs0hCLWZOaAy+BR7iHEmwAe07ZwS5NkZXNK76EMJdnilGCXXQm6oSQw+NcK9ZrHJXg3bLgZMOF0y1mX5Fp2wfEH8oT3TxFIWFEAAoV8UWWiTT8jzdEl2zIG6i3N1vE1dzHkyfx+1y/V/FjFm0jJ7n6JJzgHxKFxtpZSMTgYIYuUM0FawFXSSsGLx2NMFsPfBOTK72FVxRJblJBR8Xgyv6xlbWR9bfdvq+kjbBcrNp2Y9PULte6BBybv6CqKX0ErLxr4coYQIDAQAB-----END PUBLIC KEY-----
+      clientid: santoshtidke
+      clientSecret: santosh@tidke
