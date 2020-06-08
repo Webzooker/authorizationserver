@@ -20,3 +20,6 @@ config:
       publicKey: -----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0EgCM4BW7uunvq4bHhLkHZY0xy1x6wRdaCpjsxh0i6yjd1+bUG634gIensbHtEijGDw1/X2HzkH/LxzEs0hCLWZOaAy+BR7iHEmwAe07ZwS5NkZXNK76EMJdnilGCXXQm6oSQw+NcK9ZrHJXg3bLgZMOF0y1mX5Fp2wfEH8oT3TxFIWFEAAoV8UWWiTT8jzdEl2zIG6i3N1vE1dzHkyfx+1y/V/FjFm0jJ7n6JJzgHxKFxtpZSMTgYIYuUM0FawFXSSsGLx2NMFsPfBOTK72FVxRJblJBR8Xgyv6xlbWR9bfdvq+kjbBcrNp2Y9PULte6BBybv6CqKX0ErLxr4coYQIDAQAB-----END PUBLIC KEY-----
       clientid: santoshtidke
       clientSecret: santosh@tidke
+      
+server:
+     port: 8090
