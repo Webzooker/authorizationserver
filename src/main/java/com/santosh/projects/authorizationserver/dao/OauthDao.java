@@ -34,7 +34,7 @@ public class OauthDao {
 					user.setLastName(rs.getString("last_name"));
 					user.setMobile(rs.getString("mobile"));
 					user.setCountry(rs.getString("country"));
-					user.setUserType(rs.getString("user_typr"));
+					user.setUserType(rs.getString("user_type"));
 					return user;
 				});
 
